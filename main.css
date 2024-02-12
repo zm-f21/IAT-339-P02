@@ -62,7 +62,7 @@ nav a {
   border-radius: 10px; /* Citation: https://www.w3schools.com/css/css3_borders.asp */
   overflow: hidden;
   text-align: center;
-  background-color: #f0743e;
+  background-color: #33C8E8;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -133,7 +133,8 @@ input:hover, input:focus {
 
 
 h1 {
-  color:#f0743e;
+  font-family: "Butler_Bold", Verdana, serif;
+  color:#33C8E8;
   font-size: 40px;
 }
 
