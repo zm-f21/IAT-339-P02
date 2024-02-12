@@ -23,15 +23,15 @@ a {
   cursor:pointer;
 }
 
-#square1 {
+/* #square1 {
   display: inline-block;
   border-radius: 10px;
   height: 80px;
   width: 80px;
   background-color: #f0743e;
-} /* Citation: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_square */
+} /* Citation: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_square */ 
 
-#square2 {
+/* #square2 {
   display: inline-block;
   border-radius: 10px;
   height: 80px;
@@ -53,7 +53,7 @@ a {
   height: 80px;
   width: 80px;
   background-color: #AAD59e;
-} 
+}  */
 
 nav a {
   color: white;
@@ -70,7 +70,7 @@ nav a {
 nav a:hover, nav a:focus {
   font-weight: 600;
   color: white;
-  background-color: #f6c3ae;
+  background-color: #88D4E8;
   text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ nav a:hover, nav a:focus {
 
 .button {
   font-weight: 600;
-  background-color: #f0743e;
+  background-color: #33C8E8;
   border-radius: 10px;
   border: none;
   color: white;
@@ -109,7 +109,7 @@ nav a:hover, nav a:focus {
 
 .button:hover{
   font-weight: 600;
-  background-color: #f6c3ae;
+  background-color: #88D4E8;
   cursor: pointer;
   /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic*/
 }
@@ -262,6 +262,24 @@ a:hover, a:focus {
   border-radius: 10px;
 }
 
+.container-product7 {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #33C8E8;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.container-product8 {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  background-color: #88D4E8;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
 input[type=text] {
   width: 100%;
   margin-bottom: 20px;
@@ -280,7 +298,7 @@ input[type=text] {
 } */
 
 .btn {
-  background-color: #f0743e;
+  background-color: #33C8E8;
   color: white;
   padding: 12px;
   margin: 10px 0;
