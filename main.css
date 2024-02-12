@@ -86,7 +86,7 @@ nav a:hover, nav a:focus {
 */
 
 .in-text-link {
-  color: #f0743e;
+  color: #33C8E8;
 }
 .in-text-link:hover, .in-text-link:focus{
   color: #000;
@@ -163,7 +163,7 @@ p {
 */
 
 a {
-color:#f0743e;
+color:#33C8E8;
 }
 
 a:hover, a:focus {
