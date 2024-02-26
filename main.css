@@ -30,6 +30,29 @@
 
 }
 
+.product_alignment2 {
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  /*
+    A flexbox will try to fit all elements in one line by default. The 'flex-wrap' property lets us wrap child elements that become too wide for their current row.
+  */
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+    flex-direction: row;
+
+    /*
+    To get our flexbox to change how elements are spanned across the remaining space, we can use the 'justify-content' property. In this case, we are specifying that we want the extra space to be balanced around our elements.
+  */
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: left;
+
+
+}
+
 
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
