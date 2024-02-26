@@ -272,6 +272,7 @@ a:hover, a:focus {
 }
 
 .container-product8 {
+  width: 100%;
   text-align: center;
   display: inline-block;
   color: white;
