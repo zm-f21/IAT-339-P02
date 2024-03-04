@@ -114,9 +114,8 @@ nav {
   padding:1rem;
   color: white;
   background-color: #33C8E8;
-  /* width:100%; */
+  /*width:100%;*/
   overflow: hidden;
- 
 }
 
 nav a {
@@ -173,7 +172,6 @@ nav a:hover, nav a:focus {
 }
 
 input{
-  width: 100%;
   background-color: rgb(238, 238, 238);
   margin: 0px;
 }
@@ -352,6 +350,13 @@ input[type=text] {
   border-radius: 3px;
 }
 
+input[type=number] {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+}
+
 .container button {
   width: 100%;
 }
@@ -379,8 +384,18 @@ input[type=text] {
 
 span.price {
   float: right;
-  color: grey;
+  color: white;
 }
+
+span.quantity {
+  float:right;
+}
+
+span.cart {
+  float: right;
+  color: black;
+}
+
 
 
 

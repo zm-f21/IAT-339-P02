@@ -25,34 +25,69 @@
 
       <div class="col-25">
         <br> <div class="container">
-          <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
+          <h4>Cart <span class="cart"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
           <div class = "row">
             <div class = "col-50">
+              <div class = "container_padding">
               <div class = container-product2>
-        <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> </img>
-                <p>Argon Chalice Air Level Sticker <span class="price" style="color:white">$3.00</span></p> 
-              </div>
-              
-            </div>
-          </div>
-          <div class = "row">
-            <div class = "col-50">
-              <label for="qty">Quantity:</label>
-              <button onclick="myFunction1()">-</button> 
-              <input type="number" id="myNumber" placeholder="1" min = "0" max = "100">
-              <button onclick="myFunction2()">+</button>
-              <script>
-              function myFunction1() {
-                document.getElementById("myNumber").stepDown(1);
+        <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> 
+                <p>Argon Chalice Air Level Sticker <span class="price">$3.00</span></p>
+                <span class = "quantity"><label for="qty">Quantity:</label>
+                  <!-- <button onclick="myFunction1()" >-</button>  -->
+                <input type="number" id="myNumber" placeholder="1" min = "0" max = "100">
+                <!-- <button onclick="myFunction2()">+</button> -->
+                <script>
+                function myFunction1() {
+                  document.getElementById("myNumber").stepDown(1);
+                  }
+                  function myFunction2() {
+                  document.getElementById("myNumber").stepUp(1);
                 }
-                function myFunction2() {
-                document.getElementById("myNumber").stepUp(1);
-              }
-              </script> <!-- Citation: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_number_stepup --></span></p> 
+                </script> <!-- Citation: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_number_stepup --> 
+                  
+                <span><a class= "in-text-link"><img src = "icons/whitetrashcan.png" alt="remove" class="image" width="28" height ="21"> </a></span>
+                </span>
+              </div>
+              </div>
+                <div class = container_padding>
+                  <div class = container-product4>
+                    <img src = "poster4frame.PNG" alt="fire-sticker" class="image" width="278.25" height ="308.5"> </img>
+                    <p>Argon Chalice Fire Level Sticker <span class="price" style="color:white">$3.00</span></p>
+                    <span class = "quantity"><label for="qty">Quantity:</label>
+                      <!-- <button onclick="myFunction1()" >-</button>  -->
+                    <input type="number" id="myNumber" placeholder="1" min = "0" max = "100">
+                    <!-- <button onclick="myFunction2()">+</button> -->
+                    <script>
+                    function myFunction1() {
+                      document.getElementById("myNumber").stepDown(1);
+                      }
+                      function myFunction2() {
+                      document.getElementById("myNumber").stepUp(1);
+                    }
+                    </script> <!-- Citation: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_number_stepup --> 
+
+                      <span><a class= "in-text-link"><img src = "icons/whitetrashcan.png" alt="remove" class="image" width="28" height ="21"> </a></span>
+                    </span>
+                  </div>
+                </div>
+
+              <hr>
+              <br><h4>Total <span class="price" style="color:black"><b>$6.00</b></span></h4>
+     
+      <br>
             </div>
+          
           </div>
-        </div>
+              </div>
       </div>
+      
+    
+          
+         
+        
+      
+
+  
 
       <div class="col-75">
         <br>
@@ -106,48 +141,11 @@
               <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
             </label>
             <br>
-            <br><button class="button">Continue Checkout</button>
+            <br><button class="button">Confirm Payment</button>
         </div>
       </div>
        
-      <div class="col-25">
-        <br> <div class="container">
-          <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
-
-          <div class = product_alignment2>
-            <div class = container_padding>
-              <div class = container-product2>
-                <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> </img>
-                <p>Argon Chalice Air Level Sticker <span class="price" style="color:white">$3.00</span></p>
-
-       
-                
-              </div>
-            </div>
-
-          </div>
-
-          <div class = product_alignment2>
-            <div class = container_padding>
-
-              <div class = container-product4>
-                <img src = "poster4frame.PNG" alt="fire-sticker" class="image" width="278.25" height ="308.5"> </img>
-                <p>Argon Chalice Fire Level Sticker <span class="price" style="color:white">$3.00</span></p>
-              </div>
-            </div>
-          </div>
-
-          
-          <br>
-          <br>
-          <hr>
-          <br><h4>Total <span class="price" style="color:black"><b>$6.00</b></span></h4>
-          <br>
-          <button class="button">Confirm Payment</button>
-        </div>
-      </div>
-    </div>
-    <br>
+     
     
   </body>
 
