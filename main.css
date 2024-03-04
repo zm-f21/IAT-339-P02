@@ -112,9 +112,11 @@ nav {
   border-radius: 10px;
   top:0;
   padding:1rem;
+  padding-bottom:0rem;
+  padding-top:0rem;
   color: white;
   background-color: #33C8E8;
-  /*width:100%;*/
+  width:90%;
   overflow: hidden;
 }
 
@@ -189,6 +191,21 @@ h1 {
   font-family: "Butler_Bold", Verdana, serif;
   color:#33C8E8;
   font-size: 40px;
+}
+
+h1.home {
+  display:inline-block;
+  font-family: "Butler_Bold", Verdana, serif;
+  color:white;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+h1.title {
+  font-family: "Butler_Bold", Verdana, serif;
+  color:#33C8E8;
+  font-size: 50px;
+  text-align:center;
 }
 
 h2 {
