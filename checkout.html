@@ -10,8 +10,6 @@
 
   <body>
 
-  <h1>News</h1>
-
   <nav class = "grid seven-column two-column-content">      
     <a href="index.html">Home</a>
     <a href="games.html">Games</a>
@@ -22,12 +20,43 @@
   </nav>
 
     <br>
-    <br>
     <h1>Checkout Form</h1>
     <div class="row">
-      <div class="col-75">
-        <div class="container">
 
+      <div class="col-25">
+        <br> <div class="container">
+          <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
+          <div class = "row">
+            <div class = "col-50">
+              <div class = container-product2>
+        <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> </img>
+                <p>Argon Chalice Air Level Sticker <span class="price" style="color:white">$3.00</span></p> 
+              </div>
+              
+            </div>
+          </div>
+          <div class = "row">
+            <div class = "col-50">
+              <label for="qty">Quantity:</label>
+              <button onclick="myFunction1()">-</button> 
+              <input type="number" id="myNumber" placeholder="1" min = "0" max = "100">
+              <button onclick="myFunction2()">+</button>
+              <script>
+              function myFunction1() {
+                document.getElementById("myNumber").stepDown(1);
+                }
+                function myFunction2() {
+                document.getElementById("myNumber").stepUp(1);
+              }
+              </script> <!-- Citation: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_number_stepup --></span></p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-75">
+        <br>
+        <div class="container">
             <div class="row">
               <div class="col-50">
                 <h3>Payment</h3>
@@ -80,7 +109,7 @@
             <br><button class="button">Continue Checkout</button>
         </div>
       </div>
-      <br> 
+       
       <div class="col-25">
         <br> <div class="container">
           <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>2</b></span></h4>
@@ -90,6 +119,9 @@
               <div class = container-product2>
                 <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> </img>
                 <p>Argon Chalice Air Level Sticker <span class="price" style="color:white">$3.00</span></p>
+
+       
+                
               </div>
             </div>
 
@@ -111,12 +143,12 @@
           <hr>
           <br><h4>Total <span class="price" style="color:black"><b>$6.00</b></span></h4>
           <br>
-
-
           <button class="button">Confirm Payment</button>
         </div>
       </div>
     </div>
+    <br>
+    
   </body>
 
 

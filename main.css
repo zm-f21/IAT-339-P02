@@ -107,16 +107,24 @@ a {
   background-color: #AAD59e;
 }  */
 
+nav {
+  position: fixed;
+  border-radius: 10px;
+  top:0;
+  padding:1rem;
+  color: white;
+  background-color: #33C8E8;
+  /* width:100%; */
+  overflow: hidden;
+ 
+}
+
 nav a {
   color: white;
-  font-weight: 600;
-  display:inline-block;
-  border-radius: 10px; /* Citation: https://www.w3schools.com/css/css3_borders.asp */
-  overflow: hidden;
-  text-align: center;
-  background-color: #33C8E8;
-  padding: 14px 16px;
   text-decoration: none;
+  font-weight: 600;
+  padding: 14px 16px;
+  
 }
 
 nav a:hover, nav a:focus {
@@ -124,14 +132,8 @@ nav a:hover, nav a:focus {
   color: white;
   background-color: #88D4E8;
   text-decoration: none;
+  padding:1rem;
 }
-
-/* code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
-} */
-
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -171,6 +173,7 @@ nav a:hover, nav a:focus {
 }
 
 input{
+  width: 100%;
   background-color: rgb(238, 238, 238);
   margin: 0px;
 }
