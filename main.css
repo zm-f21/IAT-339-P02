@@ -169,7 +169,10 @@ nav a:hover, nav a:focus {
   /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic*/
 }
 
-.image:hover, .image:focus {
+/*.image:hover, .image:focus {
+  opacity: .5;
+}*/
+.image2:hover, .image:focus {
   opacity: .5;
 }
 
