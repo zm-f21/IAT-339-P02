@@ -430,8 +430,9 @@ span.cart {
 footer {
   position: absolute;
   left:0;
+ 
   padding:3rem;
-  padding-bottom:1rem;
+ 
   color: white;
   background-color: #33C8E8;
   width:100%;
