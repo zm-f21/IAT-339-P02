@@ -109,15 +109,15 @@ a {
 
 nav {
   position: fixed;
-  border-radius: 10px;
   top:0;
+  left:0;
   padding:1rem;
   padding-bottom:0rem;
   padding-top:0rem;
   color: white;
   background-color: #33C8E8;
-  width:90%;
-  overflow: hidden;
+  width:100%;
+  /* overflow: hidden; */
 }
 
 nav a {
@@ -134,6 +134,7 @@ nav a:hover, nav a:focus {
   background-color: #88D4E8;
   text-decoration: none;
   padding:1rem;
+  border-radius:10px;
 }
 
 /* 
