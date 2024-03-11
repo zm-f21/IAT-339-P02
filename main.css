@@ -1,4 +1,4 @@
-/*
+                      /*
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
@@ -110,7 +110,7 @@ a {
 nav {
   position: fixed;
   top:0;
-  left:0;
+  left:0; 
   padding:1rem;
   padding-bottom:0rem;
   padding-top:0rem;
@@ -177,6 +177,16 @@ nav a:hover, nav a:focus {
   opacity: .5;
 }
 
+.rounded-image {
+  border-radius: 540px;
+  border: 7px solid black;
+  
+}
+.rounded-imageflex {
+  display: flex;
+  justify-content: center;
+}
+
 input{
   background-color: rgb(238, 238, 238);
   margin: 0px;
@@ -240,7 +250,11 @@ p.about {
   max-width: 300px;
 }
 
-
+p.about-sibz {
+  text-align: center;
+  padding-left: 20%;
+  padding-right:20%;
+}
 
 /* 
   COMBINED ELEMENTS -------------------
