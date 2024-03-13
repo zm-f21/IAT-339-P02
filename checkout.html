@@ -4,26 +4,32 @@
   <head>
     <meta charset="utf-8">
     <title>P02 - Company</title>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
-    <link href="fonts.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/fonts.css"> 
+    <link rel="stylesheet" href="css/flexbox.css">
   </head>
 
   <body>
 
-  <nav class = "grid seven-column two-column-content">      
-    <h1 class = "home"><a href="index.html">SIBZ Studios</h1></a>
-    <a href="games.html">Games</a>
-    <a href="merch.html">Merch</a>
-    <a href="news.html">News</a> <!-- company updates // -->
-    <a href="about.html">About</a>
-    <a href="contact_form.html">Contact</a>
-    <a href="checkout.html">Checkout</a>
-  </nav>
+    <nav class="grid seven-column two-column-content">
+
+      <a href="index.html"><h3>SIBZ STUDIOS</h3></a>
+      <a href="games.html">GAMES</a>
+      <a href="merch.html">MERCH</a>
+      <a href="news.html">NEWS</a> <!-- company updates // -->
+      <a href="about.html">ABOUT</a>
+      <a href="contact_form.html">CONTACT</a>
+      <a href="checkout.html">CHECKOUT</a>
+  
+    </nav>
 
     <br>
 
     <h1 class = "title">Checkout Form</h1>
 
+    <section class = "element">
+       </section>
+    <br>
     
     <div class="row">
       <div class="col-25">
@@ -33,7 +39,7 @@
             <div class = "col-50">
               <div class = container_padding>
                 <div class = container-product1>
-                  <img src = "poster1frame.PNG" alt="water-sticker" class="image" width="278.25" height ="308.5">
+                  <img src = "assets/poster1frame.PNG" alt="water-sticker" class="image" width="278.25" height ="308.5">
                   <p>Argon Chalice Water Level Sticker <span class="price" style="color:white"> $3.00</span></p>
                   <span class = "quantity"><label for="qty">Quantity:</label>
                     <!-- <button onclick="myFunction1()" >-</button>  -->
@@ -54,7 +60,7 @@
               </div>
               <div class = "container_padding">
               <div class = container-product2>
-        <img src = "poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> 
+        <img src = "assets/poster3frame.PNG" alt="air-sticker" class="image" width="278.25" height ="308.5"> 
                 <p>Argon Chalice Air Level Sticker <span class="price">$3.00</span></p>
                 <span class = "quantity"><label for="qty">Quantity:</label>
                   <!-- <button onclick="myFunction1()" >-</button>  -->
@@ -93,6 +99,7 @@
             <div class="row">
               <div class="col-50">
                 <h3>Payment</h3>
+                <br>
                 <label for="cname">Name on Card</label>
                 <input type="text" id="cname" name="cardname" placeholder="John More Doe">
                 <label for="ccnum">Credit card number</label>
@@ -113,6 +120,7 @@
 
               <div class="col-50">
                 <h3>Billing Address</h3>
+                <br>
                 <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
                 <label for="email"><i class="fa fa-envelope"></i> Email</label>
@@ -139,7 +147,7 @@
               <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
             </label>
             <br>
-            <br><a href = "thankyou.html"><button class="button">Confirm Payment</button></a>
+            <br><a href = "thank_you.html"><button class="button">Confirm Payment</button></a>
         </div>
       </div>
        
@@ -147,5 +155,6 @@
 
     
   </body>
+  
 
 </html>

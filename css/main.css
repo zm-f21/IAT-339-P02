@@ -1,0 +1,414 @@
+                     /*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: #34C8E8;
+  font-family: "PPSupply", monospace, sans-serif;
+  padding: 4rem;
+}
+
+.element {
+  /* padding-bottom: 2rem; */
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+section {
+  padding-bottom: 2rem;
+}
+
+.hr{
+  border-color: black;
+}
+
+.centering {
+   image-align: center;
+  /* display: block; */
+  margin-left: 25%;
+  margin-right: 25%;
+  /* width: 50%; */
+  /* text-align: center; */
+}
+
+/* 
+  FONTES ----------------------------------------------------------------------------
+*/
+h1 {/* FILLED */
+  font-family: "Rose", Verdana, serif;
+  color:#000000;
+  text-shadow: none;
+  font-size: 80px;
+  letter-spacing: -5px; /* kerning */
+  line-height: 85%; /* leading */
+  text-align:center;
+}
+
+h2 {/* OUTLINE */
+  font-family: "Rose", Verdana, serif;
+  color: #33C8E8; /* Text fill color set to transparent */
+  text-shadow: 
+      -0.7px -0.7px 0 #000000,  
+      0.7px -0.7px 0 #000000,
+      -0.7px 0.7px 0 #000000,
+      0.7px 0.7px 0 #000000;
+  font-size: 110px;
+  letter-spacing: -5px; /* kerning */
+  line-height: 85%; /* leading */
+  text-align:center;
+}
+
+h3{
+  display:inline-block;
+  font-family: "NHaas_Bold", Verdana,  sans-serif;
+  color:black;
+  fill: black;
+  font-size: 30px;
+  padding-right: 20px
+}
+
+h4{  
+  font-family: "NHaas", medium,  sans-serif;
+  color:black;
+  font-size: 25px;
+  text-align:center;
+}
+
+h5{
+  font-family: "NHaasR", Verdana,  sans-serif;
+  color:black;
+  font-size: 25px;
+  text-align:center;
+}
+
+h6{
+  font-family: "PPSupplyN", monospace, sans-serif;
+  color:black;
+  font-size: 25px;
+  text-align:center;
+
+}
+
+h8 {
+  font-family: "Rose", Verdana, serif;
+  color:#000000;
+  text-shadow: none;
+  font-size: 110px;
+  letter-spacing: -5px; /* kerning */
+  line-height: 85%; /* leading */
+}
+
+h9.outlined {
+  font-family: "Rose", Verdana, serif;
+  color: #33C8E8; /* Text fill color set to transparent */
+  text-shadow: 
+      -0.7px -0.7px 0 #000000,  
+      0.7px -0.7px 0 #000000,
+      -0.7px 0.7px 0 #000000,
+      0.7px 0.7px 0 #000000;
+  font-size: 110px;
+  letter-spacing: -5px; /* kerning */
+  line-height: 85%; /* leading */
+}
+
+/* USED only in styleguide */
+h3.title{
+  display:inline-block;
+  font-family: "NHaas_Bold", Verdana,  sans-serif;
+  color:black;
+  fill: black;
+  font-size: 50px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+}
+/* USED only in styleguide */
+h6.sub{
+  font-family: "PPSupplyN", monospace, sans-serif;
+  color:black;
+  font-size: 17px;
+  text-align:left;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+/* USED only in styleguide */
+h7{
+  display:inline-block;
+  font-family: "NHaas_Bold", Verdana,  sans-serif;
+  color:black;
+  fill: black;
+  font-size: 25px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-family: "PPSupplyN", monospace, sans-serif;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+nav {
+  position: fixed;
+  top:0;
+  left:0; 
+  padding:1rem;
+  padding-bottom:0rem;
+  padding-top:0rem;
+  width:100%;
+  /* overflow: hidden; */
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 14px 16px;
+
+}
+
+nav a:hover, nav a:focus {
+  font-weight: 600;
+  color: white;
+  background-color: none;
+  text-decoration: none;
+  padding:1rem;
+  border-radius:10px;
+}
+
+
+a {
+color:#33C8E8;
+font-family: "NHaas", medium,  sans-serif;
+font-size: 16px;
+}
+
+a:hover, a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+.in-text-link {
+  /* color: #33C8E8; */
+  color:black;
+}
+.in-text-link:hover, .in-text-link:focus{
+  color: #000;
+  text-decoration: none;
+}
+
+.button {
+  font-weight: 600;
+  background-color: #33C8E8;
+  border-radius: 10px;
+  border: solid black;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+  font-weight: 600;
+  background-color: #88D4E8;
+  cursor: pointer;
+  /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic*/
+}
+
+/*.image:hover, .image:focus {
+  opacity: .5;
+}*/
+.image2:hover, .image:focus {
+  opacity: .5;
+}
+
+.rounded-gif {
+  border-radius: 540px;
+  border: 5px solid black;
+
+}
+
+
+input{
+  background-color: rgb(238, 238, 238);
+  margin: 0px;
+}
+
+input:hover, input:focus {
+  background-color: white;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+heading_indent{
+  padding-left: 9em;
+}
+
+heading_padding{
+  padding-top: 9em;
+}
+
+
+
+
+p {
+  margin-top: 0;
+}
+
+p.about {
+  text-align: center;
+  max-width: 300px;
+}
+
+p.about-sibz {
+  text-align: center;
+  padding-left: 20%;
+  padding-right:20%;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=number] {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+}
+
+.container button {
+  width: 100%;
+}
+
+/* label {
+  margin-bottom: 10px;
+  display: block;
+} */
+
+.btn {
+  background-color: #33C8E8;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #f6c3ae;
+}
+
+span.price {
+  float: right;
+  color: white;
+}
+
+span.quantity {
+  float:right;
+}
+
+span.cart {
+  float: right;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  left:0;
+
+  padding:3rem;
+
+  color: white;
+  background-color: #33C8E8;
+  width:100%;
+  height:40%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+
+}
+
+.in-text-link-footer {
+  color: white;
+  text-decoration: none;
+}
+.in-text-link-footer:hover, .in-text-link-footer:focus{
+  color:white;
+  text-decoration: underline;
+}
+
+/* #square1 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #f0743e;
+} /* Citation: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_shapes_square */ 
+
+/* #square2 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #f6c3ae;
+} 
+
+#square3 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #9ab2d4;
+} 
+
+#square4 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #AAD59e;
+}  */
+
+
+/* Citation: https://www.w3schools.com/howto/howto_css_checkout_form.asp

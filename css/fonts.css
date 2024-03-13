@@ -1,0 +1,60 @@
+/* 
+  Please leave the content below alone for this week's tutorial
+*/
+@font-face {
+  font-family: 'Butler_Bold';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/Butler_Bold.otf');
+}
+
+@font-face {
+  font-family: 'Rose';
+  font-weight: bold;
+  font-style: normal;
+  src: url('../fonts/RoslindaleDeckNarrow-Bold-Testing.otf');
+}
+
+@font-face {
+  font-family: 'NHaas_Bold';
+  font-weight: bolder;
+  font-style: normal;
+  src: url('../fonts/NHaasGroteskDSPro-75Bd.otf');
+}
+
+
+@font-face {
+  font-family: 'NHaas';
+  font-weight: lighter;
+  font-style: normal;
+  src: url('../fonts/NHaasGroteskDSPro-65Md.otf');
+}
+
+@font-face {
+  font-family: 'NHaasR';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/NHaasGroteskDSPro-55Rg.otf');
+}
+
+@font-face {
+  font-family: 'NHaasL';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/NHaasGroteskDSPro-25Th.otf');
+}
+
+@font-face {
+  font-family: 'PPSupply';
+  font-weight: lighter;
+  font-style: normal;
+  src: url('../fonts/PPSupplyMono-Ultralight.otf');
+}
+
+@font-face {
+  font-family: 'PPSupplyN';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/PPSupplyMono-Regular.otf');
+}
+
