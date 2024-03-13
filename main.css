@@ -55,7 +55,8 @@
 
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  font-family: "PPSupply", monospace, sans-serif;
   padding: 4rem;
 }
 
@@ -247,13 +248,19 @@ p {
 
 p.about {
   text-align: center;
-  max-width: 300px;
+  max-width: 350px;
 }
 
 p.about-sibz {
   text-align: center;
   padding-left: 20%;
   padding-right:20%;
+}
+
+p.games {
+  padding-left: 10%;
+  text-align: right;
+  max-width: 350px;
 }
 
 /* 
@@ -463,6 +470,8 @@ footer a {
 .in-text-link-footer {
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  /* font-weight: bold; */
 }
 .in-text-link-footer:hover, .in-text-link-footer:focus{
   color:white;
